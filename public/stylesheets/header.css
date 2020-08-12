@@ -1,0 +1,126 @@
+header{
+    background: linear-gradient(180deg, #000000, #3498DB, #3498DB,  #3498DB,  #3498DB,  #3498DB, transparent);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    display: block;
+}
+
+ul{
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+li{
+    padding: 10px;
+    display:inline-block;
+}
+
+/*the size for the nav logo*/
+.nav-logo {
+    padding: 8px;
+    margin-top: 25px;
+    margin-bottom: -20px;
+    width: 100px;
+    height: 40px;
+    opacity: 0.1;
+    -moz-box-shadow:    none;
+    -webkit-box-shadow: none;
+    box-shadow:         none;
+}
+
+/* Dropdown Button */
+#menu a {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 18px;
+    font-size: 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#menu ul li{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B0;
+}
+
+
+/* Dropdown Content (Hidden by Default)*/
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #535353;
+    font-size: 18px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu */
+.show {
+    display:block;
+}
+
+/*clickable links*/
+.nav-link-main-subtitle{
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    padding: 18px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+
+.btn{
+    padding: 8px;
+    margin-top: 24px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.btn-text{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+
+/*Keep the two buttons on the right side.*/
+.Btn-right{
+    padding: 2px;
+    margin-top: 6px;
+    margin-right: 24px;
+    float: right;
+}
+
+/* NONE Dropdown subtitle */
+.nav-link-main-subtitle{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+

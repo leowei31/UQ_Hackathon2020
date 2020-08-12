@@ -1,0 +1,28 @@
+{
+  "name": "uqhackathon2020",
+  "version": "1.0.0",
+  "description": "leo's branch 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khan123451/UQHackathon2020.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khan123451/UQHackathon2020/issues"
+  },
+  "homepage": "https://github.com/khan123451/UQHackathon2020#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "normalize-port": "^1.0.0",
+    "passport": "^0.4.1"
+  }
+}

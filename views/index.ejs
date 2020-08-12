@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hi.re</title>
+    <link rel='stylesheet' href='/stylesheets/index.css'>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- <script src="scripts/header_load.js"></script>
+    <script src="scripts/index_script.js"></script>    -->
+</head>
+
+<body>
+    <div id="header-page"></div>
+    <h1 class="main_text" style="margin-top: 15%; opacity: 0;">"Welcome to the Hi.re job application platform."</h1>
+    <button class="btn" style="bottom:50%; right:50%;position:absolute; opacity: 0; width:12%; height: 8%;" id="body-center-Btn"><a href="#" class="btn-text" style="color:black;">Try it Now!</a></button>
+ 
+    <script>
+        $(document).ready(function() {
+        $("#header-page").load("./header/header.html");});
+        $(document).ready(function() {
+
+            $("h1").fadeTo(4000, 0.9);
+            $("#body-center-Btn").fadeTo("slow", 0.9);
+
+            $("#body-center-Btn").hover(function(){
+                $("#body-center-Btn").fadeTo("slow", 0.1);
+            }, function () {
+                $("#body-center-Btn").fadeTo("slow", 0.9);
+            });
+        });
+    </script>
+    
+
+</body>
+</html>
